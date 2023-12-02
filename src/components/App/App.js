@@ -51,7 +51,7 @@ export const App = () => {
           ></FeedbackOptions>
         </Section>
         <Section title="Statistics">
-          {countTotalFeedback ? (
+          {countTotalFeedback() ? (
             <Statistics
               good={good}
               neutral={neutral}
